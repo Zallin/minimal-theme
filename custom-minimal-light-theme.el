@@ -50,7 +50,7 @@
        )
   (setq fci-rule-color comment)
   (custom-theme-set-faces
-   'minimal-light
+   'custom-minimal-light
 
    ;; basic stuff
    `(default ((,class (:background ,background :foreground ,foreground))))
@@ -180,4 +180,4 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'minimal-light)
+(provide-theme 'custom-minimal-light)
